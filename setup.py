@@ -17,7 +17,7 @@ setup(
     cmdclass = versioneer.get_cmdclass(),
     packages = find_packages(),
     dependency_links = [
-        "git+https://github.com/Minkey27/pyrax.git@9d4722e83d4c7c66fd63f040321ead62f67efba6#egg#egg=pyrax",
+        "http://github.com/Minkey27/pyrax/tarball/9d4722e83d4c7c66fd63f040321ead62f67efba6#egg=pyrax",
     ],
     author = "Ferrix Hovi, Thomas Schreiber",
     license = "BSD",
