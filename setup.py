@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 import os
+
+from setuptools import find_packages, setup
 import versioneer
 
-from setuptools import setup, find_packages
 
 versioneer.VCS = 'git'
 versioneer.versionfile_source = 'cumulus/_version.py'
@@ -15,8 +16,8 @@ setup(
     version = versioneer.get_version(),
     cmdclass = versioneer.get_cmdclass(),
     packages = find_packages(),
-    install_requires = [
-        "pyrax>=1.9,<1.10",
+    dependency_links = [
+        "git+https://github.com/Minkey27/pyrax.git@9d4722e83d4c7c66fd63f040321ead62f67efba6",
     ],
     author = "Ferrix Hovi, Thomas Schreiber",
     license = "BSD",
