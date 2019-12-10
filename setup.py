@@ -16,7 +16,7 @@ setup(
     version = versioneer.get_version(),
     cmdclass = versioneer.get_cmdclass(),
     packages = find_packages(),
-    dependency_links = [
+    install_requires = [
         "http://github.com/Minkey27/pyrax/tarball/9d4722e83d4c7c66fd63f040321ead62f67efba6#egg=pyrax",
     ],
     author = "Ferrix Hovi, Thomas Schreiber",
