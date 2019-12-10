@@ -17,7 +17,8 @@ setup(
     cmdclass = versioneer.get_cmdclass(),
     packages = find_packages(),
     install_requires = [
-        "pyrax @ git+https://github.com/Minkey27/pyrax@9d4722e83d4c7c66fd63f040321ead62f67efba6",
+        # "pyrax @ git+https://github.com/Minkey27/pyrax@9d4722e83d4c7c66fd63f040321ead62f67efba6",
+        "pyrax @ https://github.com/Minkey27/pyrax/archive/9d4722e83d4c7c66fd63f040321ead62f67efba6.zip"
     ],
     author = "Ferrix Hovi, Thomas Schreiber",
     license = "BSD",
