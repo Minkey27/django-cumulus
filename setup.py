@@ -18,7 +18,7 @@ setup(
     packages = find_packages(),
     install_requires = [
 
-        "pyrax @ https://github.com/wearespindle/pyrax/tarball/9d4722e83d4c7c66fd63f040321ead62f67efba6"
+        "pyrax @ https://github.com/wearespindle/pyrax/tarball/6ae5717d2b82a16e214f9cde31b23628e7176b34"
     ],
     author = "Ferrix Hovi, Thomas Schreiber",
     license = "BSD",
